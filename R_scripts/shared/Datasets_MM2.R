@@ -3,7 +3,6 @@ library(limma)
 
 
 # PART 2: Load samples and do basic quality control
-
 cntMM2 <- read.table(file="input/star_genes_erc.counts_NS20_EA.txt")
 cntMM2_batch2 <- read.table(file="input/NS26_star_genes_erc.counts-MM2-2.txt")
 
@@ -29,11 +28,6 @@ cntMM2All <- cntAll[!drop,]
 
 # Remove stuff we no longer need
 rm(cntAll, drop, htseq_drop_rows)
-
-# Remove colls we don't want to analyze
-cntMM2All$BR1 <- NULL
-cntMM2All$pmac1 <- NULL
-cntMM2All$SHIMG1.3 <- NULL
 
 # Also remove PG22.P14 since we have a better sample with more reads: 2PG22.P14
 cntMM2All$PG22.P14 <- NULL
