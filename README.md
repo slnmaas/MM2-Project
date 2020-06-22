@@ -1,8 +1,8 @@
 # MM2-Project
 
-This repository contains all R files used to generate the figures for the manuscript “GlioM&M: Web-based tool for studying circulating and infiltrating monocytes and macrophages in glioma ” 
+This repository contains all R files used to generate the figures for the manuscript “GlioM&amp;M: Web-based tool for studying circulating and infiltrating monocytes and macrophages in glioma” by Erik R Abels, Sybren L N Maas, Eric Tai, David T Ting, Marike L D Broekman, Xandra O Breakefield, Joseph El Khoury.
 
-This manuscript has not yet been published. Once published a link to the publication will be added to this file.
+This manuscript was published on June 18th 2020 in <a href="https://www.nature.com/articles/s41598-020-66728-w" target="_blank">Scientific Reports</a>. 
 
 Using these scripts for other scientific projects is encouraged. However, if these scripts help the generation of a new manuscript please cite the publication listed above.
 
